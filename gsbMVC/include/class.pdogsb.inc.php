@@ -16,9 +16,9 @@
  */
 
 class PdoGsb{   		
-      	private static $serveur='mysql:host=127.0.0.1';
-      	private static $bdd='dbname=gsbrml';   		
-      	private static $user='GSBroot';    		
+      	private static $serveur='mysql:host=mysql-gsbrlm.alwaysdata.net';
+      	private static $bdd='dbname=gsbrml_db';   		
+      	private static $user='gsbrlm';    		
       	private static $mdp='TheMDP';	
 		private static $monPdo;
 		private static $monPdoGsb=null;
