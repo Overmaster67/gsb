@@ -112,7 +112,7 @@ class PdoGsb{
 		where LigneFraisForfait.idVisiteur ='$idVisiteur' and LigneFraisForfait.DateOperation='$mois' 
 		order by LigneFraisForfait.idFrais";	
 		$res = PdoGsb::$monPdo->query($req);
-		$lesLignes = $res->fetchAll();
+		//$lesLignes = $res->fetchAll();                    -----------------------------------------------------------------------------
 		return $lesLignes; 
 	}
 	

@@ -24,7 +24,7 @@
         <?php
           foreach (  $lesFraisForfait as $unFraisForfait  ) 
 		  {
-				$quantite = $unFraisForfait['quantite'];
+				$quantite = $unFraisForfait['montant'];
 		?>
                 <td class="qteForfait"><?php echo $quantite?> </td>
 		 <?php

@@ -10,9 +10,10 @@
 			<?php
 				foreach ($lesFraisForfait as $unFrais)
 				{
-					$idFrais = $unFrais['idfrais'];
+					$idFrais = $unFrais['idFrais'];
 					$libelle = $unFrais['libelle'];
-					$quantite = $unFrais['quantite'];
+					$quantite = $unFrais['montant
+					'];
 			?>
 					<p>
 						<label for="idFrais"><?php echo $libelle ?></label>
